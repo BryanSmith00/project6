@@ -1,0 +1,66 @@
+p {
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-items: center;
+}
+
+.photocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.metadata {
+  width: 80%;
+}
+
+.metadata p {
+  margin: 0.4rem 0.5rem 0rem 0rem;
+  text-align: right;
+}
+
+.photo {
+  width: 80%;
+  max-height: 80%;
+  margin-top: 1rem;
+}
+
+.comments {
+  width: 80%;
+  border: 1px solid;
+  border-radius: 0.4rem;
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.commentheader {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.commentheader a {
+  font-weight: bold;
+}
+
+.commentbody {
+  width: 90%;
+  margin: 0.3rem 10% 1rem 1rem;
+}
